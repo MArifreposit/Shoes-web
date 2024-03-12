@@ -1,21 +1,23 @@
-*
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-section{
+
+section {
     width: 100%;
     height: 100vh;
     background-image: url(image/bg1.png);
     background-size: cover;
     background-position: center;
 }
-section nav{
+
+section nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -27,18 +29,32 @@ section nav{
     right: 0;
     z-index: 100;
 }
-section nav ul{
+
+section nav ul {
     display: flex;
-    list-style: none;    
+    list-style: none;
 }
-section nav ul li{
+
+section nav ul li {
     display: inline-block;
     margin: 5px 15px;
     list-style: none;
     font-size: 25px;
     text-decoration: none;
 }
-section nav .logo{
+
+section nav ul li a {
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+}
+
+section nav ul li a:hover {
+    color: #c72092;
+}
+
+
+section nav .logo {
     font-size: 35px;
     color: #c72092;
     margin: 5px 0;
@@ -46,7 +62,10 @@ section nav .logo{
     position: relative;
     left: -4%;
 }
-section nav .logo span{
+
+section nav .logo span {
     color: #6c14d0;
     text-decoration: underline;
 }
+
+section nav .icon {}
