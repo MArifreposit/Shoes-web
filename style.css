@@ -68,6 +68,32 @@ section nav .logo span {
     text-decoration: underline;
 }
 
-section nav .icon {
-    
+section nav .icon i {
+    font-size: 22px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+section nav .icon i:hover {
+    color: #c72092;
+}
+
+section .main .main-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section .main .main-content .main-text h1 {
+    font-size: 90px;
+    line-height: 70px;
+    font-family: pyxidium quick;
+    background: linear-gradient(to right, #c72092, #6c14d0);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    top: 45px;
+    left: 5%;
+
 }
